@@ -93,7 +93,6 @@ def score_to_data(score, win_size):
     return arrayed_data
 
 # ------------------------------------------------------------------------------------------------------------
-
 # Available corpus
 # c = converter.parse('//Users/matthewchiu/Documents/Phase Tracking/Test Scores/MozartK545.xml')
 c = converter.parse('//Users/matthewchiu/Documents/Phase Tracking/Scores/MozartK157_expo.xml')
@@ -139,18 +138,6 @@ phase_df = pd.DataFrame(make_dataframe(phase))[['f1', 'f2', 'f3', 'f4', 'f5', 'f
 phase_df
 
 # ------------------------------------------------------------------------------------------------------------
-
-# # Make area plot with the magnitude of all Fourier components.
-
-# mag_df.plot.area(stacked=False, figsize=(20, 5), color=['xkcd:sky', 'xkcd:sun yellow', 'xkcd:fern', 'xkcd:rose',
-#                                                      'xkcd:lilac', 'xkcd:very light brown']).legend(loc='upper right')
-
-# # Make area plot with the phase of all Fourier components. (Not particularly useful)
-
-# phase_df.plot.area(stacked=False, figsize=(20, 5), color=['xkcd:sky', 'xkcd:sun yellow', 'xkcd:fern', 'xkcd:rose',
-#                                                      'xkcd:lilac', 'xkcd:very light brown']).legend(loc='upper right')
-
-
 # # Plot the magnitude and phase of each component. Y axis for magnitude is on the left, Y axis for phase is on the right. There are two overlapping graphs for phase. The lighter colored is for the raw phase data, while the darker colored is for the phase data rounded to the nearest 'node'.
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -278,6 +265,6 @@ f6_PhaseInfo = (phaseForCosSimArrayRounded_df['f6'], 'brown')
 # make_graph2(*f5_PhaseInfo)
 # make_graph2(*f6_PhaseInfo)
 
-plt.show()
+# plt.show()
 
 
