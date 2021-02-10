@@ -230,41 +230,6 @@ f4_PhaseInfo = (phaseForCosSimArrayRounded_df['f4'], 'red')
 f5_PhaseInfo = (phaseForCosSimArrayRounded_df['f5'], 'purple')
 f6_PhaseInfo = (phaseForCosSimArrayRounded_df['f6'], 'brown')
 
-
-# Leave for a second...
-# def make_graph2(phase1, phase2, phasecolor1, phasecolor2):
-#     phase1.plot.area(stacked = False, figsize=(20, 5), color=phasecolor1)
-#     plt.ylim((-3.14,3.14))
-#     phase2.plot.area(stacked = False, secondary_y=True, color=phasecolor2)
-#     plt.ylim((-3.14,3.14))
-# f1_PhaseInfo = (phaseForCosSimArray_df['f1'], phaseForCosSimArrayRounded_df['f1'], 'xkcd:sky', 'xkcd:lightish blue')
-# f2_Phaseinfo = (phaseForCosSimArray_df['f2'], phaseForCosSimArrayRounded_df['f2'], 'xkcd:sun yellow', 'xkcd:squash')
-# f3_PhaseInfo = (phaseForCosSimArray_df['f3'], phaseForCosSimArrayRounded_df['f3'], 'xkcd:fern', 'xkcd:swamp')
-# f4_PhaseInfo = (phaseForCosSimArray_df['f4'], phaseForCosSimArrayRounded_df['f4'], 'xkcd:rose', 'xkcd:pinkish')
-# f5_PhaseInfo = (phaseForCosSimArray_df['f5'], phaseForCosSimArrayRounded_df['f5'], 'xkcd:lilac', 'xkcd:dark lavender')
-# f6_PhaseInfo = (phaseForCosSimArray_df['f6'], phaseForCosSimArrayRounded_df['f6'], 'xkcd:very light brown', 'xkcd:dark taupe')
-# ------------------------------------------------------------------------------------------------------------
-# PLOTTING THINGS
-# fig, ax1 = plt.subplots()
-# ax2 = ax1.twinx()
-# ax1.set_ylim((-3.14,3.14))
-# ax2.set_ylim((-3.14,3.14))
-
-# make_graph(*f1_info)
-# make_graph(*f2_info)
-# make_graph(*f3_info)
-# make_graph(*f4_info)
-# make_graph(*f5_info)
-# make_graph(*f6_info)
-
-# Cosine Similarity Rounded
-# make_graph2(*f1_PhaseInfo)
-# make_graph2(*f2_PhaseInfo)
-# make_graph2(*f3_PhaseInfo)
-# make_graph2(*f4_PhaseInfo)
-# make_graph2(*f5_PhaseInfo)
-# make_graph2(*f6_PhaseInfo)
-
 # plt.show()
 
 
